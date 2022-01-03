@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/main.css">
+    <title>Result</title>
+</head>
+<body>
+        {% if flag == 'Success' %}
+            <h1>Yayy !! Inserted successfully !!</h1>
+        {% else %}
+            <h1>Oops !! Error in Insert operation !!!!!</h1>
+        {% endif %}
+        <button type="button" class="btn-default" onclick="window.location.href ='/' ">Go back to Home</button>
+</body>
+</html>
